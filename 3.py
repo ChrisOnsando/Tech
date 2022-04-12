@@ -5,5 +5,6 @@ def generate_random_password():
     length_password = int(input("Enter Password Length:"))
     x = "".join(random.sample(password,length_password))
     print(f"Your Random Password is:{x}")
+    return(x)
 
 generate_random_password()
