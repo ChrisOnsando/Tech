@@ -1,6 +1,14 @@
 # Write a Python program to check if a given positive integer is a power of four.
-num = int(input("Enter Integers:"))
-if(num%4==0):
-  print(num,"num is a power of four")
+from math import log, floor
+from re import X
+
+def checkPowerOf4(n):
+    X = log(n) / log(4)
+    return X == floor(X)
+ 
+n = 220
+ 
+if checkPowerOf4(n):
+        print(n, 'is a power of 4')
 else:
-  print(num,"integer is not a power of four")
+        print(n, 'is not a power of 4')
