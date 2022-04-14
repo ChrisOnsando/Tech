@@ -20,11 +20,11 @@ class TestAssign(unittest.TestCase):
         self.assertTrue(assign.timeout_request(url="https://uda.ke/site"))
 
     def test_basic_stats(self):
-        result = assign.basic_stats([1,2,3,4,5])
-        self.assertTrue(result["mean"], [3])
-        self.assertTrue(result["mode"], [1,2,3,4,5])
-        self.assertTrue(result["variance"], [2.5])
-        self.assertTrue(result["median"], 3)
+        result = assign.basic_stats([100, 200 ,300, 400, 500])
+        self.assertTrue(result["mean"], [300])
+        self.assertTrue(result["mode"], [100, 200, 300, 400, 500])
+        self.assertTrue(result["variance"], [25000])
+        self.assertTrue(result["median"], 300)
 
     
         
