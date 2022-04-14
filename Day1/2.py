@@ -1,4 +1,4 @@
-#Write a python function to find the length of the last word
+# A python function to find the length of the last word
 def length_last_word(A):
     arr=A.split(' ')
     size=len(arr)

@@ -1,4 +1,4 @@
-# Write a Python program to check if a number is a perfect square.
+# A Python program to check if a number is a perfect square.
 import math
 from math import log, floor
 from re import X

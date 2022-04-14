@@ -1,4 +1,4 @@
-# Write a Python program to check if a given positive integer is a power of four.
+# A Python program to check if a given positive integer is a power of four.
 from math import log, floor
 from re import X
 

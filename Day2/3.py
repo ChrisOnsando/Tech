@@ -1,4 +1,4 @@
-# Create a Python project to guess a number that has randomly been selected.
+# A Python project to guess a number that has randomly been selected.
 import random
 def guess_number():
     random_number = random.randint(1,20)

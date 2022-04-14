@@ -1,4 +1,4 @@
-# Write a NumPy program to get the dates of yesterday,today and tomorrow
+# A NumPy program to get the dates of yesterday,today and tomorrow
 import numpy as np
 
 todays_date = np.datetime64('today', 'D')
