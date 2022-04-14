@@ -1,4 +1,4 @@
-# Functions used to test programs.
+# Functions used to test my programs.
 import math
 from math import log, floor
 from re import X
