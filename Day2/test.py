@@ -26,17 +26,5 @@ class TestAssign(unittest.TestCase):
         self.assertTrue(result["variance"], [25000])
         self.assertTrue(result["median"], 300)
 
-    
-        
-
-
-
-
-
-
-
-
-
-
 if __name__== '__main__':
     unittest.main()
