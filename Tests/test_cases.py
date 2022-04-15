@@ -28,6 +28,7 @@ class Testfunc(unittest.TestCase):
     def test_volume_of_cube(self):
         self.assertAlmostEqual(met.cube_volume(2), 8)
         self.assertAlmostEqual(met.cube_volume(1), 1)
+        
     def test_upper(self):
         self.assertEqual(met.upper_case("ZOO"), "ZOO")
 
@@ -39,7 +40,6 @@ class Testfunc(unittest.TestCase):
     
     def test_concanc_names(self):
         self.assertEqual(met.concanc_names('erick','gege'), 'erick gege')
-
 
 if __name__=="__main__":
     unittest.main()
