@@ -40,5 +40,5 @@ def timeout_request(url):
         data = requests.get(url, timeout=10)
         return data.status_code
     except Timeout:
-        print('Timeout has been raised.')
-    
+        return('Timeout has been raised.')
+timeout_request(url="https://uda.ke/site")
