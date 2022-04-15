@@ -4,7 +4,7 @@ def my_array():
     z = np.array(["1, 435, 56633, 2400, 868"])
     print("Array:")
     print(z)
-    print("Size of memory occupied:")
+    print("Size of memory occupied by array:")
     print("%d bytes" % (z.size * z.itemsize))
 
 my_array()
