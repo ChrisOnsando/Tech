@@ -9,7 +9,7 @@ class Testfunc(unittest.TestCase):
         self.assertEqual(met.sum(3, -4), -1)
 
     def test_mul(self):
-        self.assertEqual(met.mul(3, 3), 9)
+        self.assertEqual(met.mul(4, 4), 16)
 
     def test_div(self):
         self.assertEqual(met.div(100, 5), 20)
