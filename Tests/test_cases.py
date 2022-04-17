@@ -39,7 +39,7 @@ class Testfunc(unittest.TestCase):
             s.split(2)
     
     def test_concanc_names(self):
-        self.assertEqual(met.concanc_names('erick','gege'), 'erick gege')
+        self.assertEqual(met.concanc_names('Chris','Onsando'), 'Chris Onsando')
 
 if __name__=="__main__":
     unittest.main()
