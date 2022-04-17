@@ -1,3 +1,4 @@
+# Beginning of Test Cases. 
 from cmath import pi
 import unittest
 import met
@@ -19,8 +20,8 @@ class Testfunc(unittest.TestCase):
         self.assertEqual(met.sub(5, 2), 3)
 
     def test_leapyear(self):
-        self.assertTrue(met.check_leap_year(2004), None)
-        self.assertFalse(met.check_leap_year(2003), None)
+        self.assertTrue(met.check_leap_year(2004))
+        self.assertFalse(met.check_leap_year(2003))
 
     def test_area_of_circle(self):
         self.assertEqual(met.area_circle(14), 615.7521601035994)
@@ -31,6 +32,9 @@ class Testfunc(unittest.TestCase):
         
     def test_upper(self):
         self.assertEqual(met.upper_case("ZOO"), "ZOO")
+
+    def test_lower_case(self):
+        self.assertEqual(met.lower_case("zoo"), "zoo")
 
     def test_split(self):
         s = 'Hello Skaehub'
@@ -43,4 +47,5 @@ class Testfunc(unittest.TestCase):
 
 if __name__=="__main__":
     unittest.main()
-        
+    
+# End of Test Cases.        

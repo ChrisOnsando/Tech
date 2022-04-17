@@ -39,6 +39,9 @@ def cube_volume(length):
 def upper_case(word):
     return word
 
+def lower_case(word):
+    return word
+
 def split_name(word):
     return word
 
