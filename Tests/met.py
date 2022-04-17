@@ -1,7 +1,7 @@
 from cmath import pi
 from operator import length_hint
 
-from cv2 import circle
+#from  cmath import circle
 
 
 def sum(num1, num2):
