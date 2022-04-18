@@ -8,7 +8,7 @@ print(z)
 
 # Unpack a list
 
-places = ["Nairobi", "Kisumu", "Eldorret"]
+places = ["Nairobi", "Kisumu", "Eldoret"]
 x, y, z = places
 print(places)
 print(x)
