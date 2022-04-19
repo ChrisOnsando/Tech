@@ -4,3 +4,8 @@ def my_duplicate():
     print(list(dict.fromkeys(data)))
 
 my_duplicate()
+
+def my_function(x):
+    return list(dict.fromkeys(x))
+my_list = my_function(["a", "b", "a", "b", "b", "a", "c", "c", "d"])
+print(my_list)
