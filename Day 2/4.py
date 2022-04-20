@@ -1,4 +1,6 @@
 import requests
-r = requests.get('https://www.google.com/')
-print(r.text)
-print(r.content)
+def get_requests():
+    r = requests.get('https://www.google.com/')
+    print(r.text)
+    return(r.content)
+get_requests()
