@@ -1,14 +1,19 @@
 # A Python program to check if a given positive integer is a power of four.
-from math import log, floor
-from re import X
-
-def checkPowerOf4(n):
-    X = log(n) / log(4)
-    return X == floor(X)
+def PowerOfFour(n):
+    if (n == 0):
+        return False
+    while (n != 1):
+            if (n % 4 != 0):
+                return False
+            n = n // 4
+             
+    return True
  
-n = 220
- 
-if checkPowerOf4(n):
-        print(n, 'is a power of 4')
+trial_integer = 100
+if(PowerOfFour(100)):
+    print(trial_integer, 'is a power of 4')
 else:
-        print(n, 'is not a power of 4')
+    print(trial_integer, 'is not a power of 4')
+
+
+ 
