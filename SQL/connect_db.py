@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 
-conn = sqlite3.connect('employee_2022')
+conn = sqlite3.connect('employee_db')
 c = conn.cursor()
 c.execute('''
     SELECT * FROM employees
