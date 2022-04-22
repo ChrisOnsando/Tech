@@ -9,5 +9,5 @@ c.execute('''
     '''   
 )
 
-df  = pd.DataFrame(c.fetchall(),columns=['firstname','secondname','payroll'])
+df  = pd.DataFrame(c.fetchall(),columns=['firstname','secondname','paycheck'])
 print(df)
