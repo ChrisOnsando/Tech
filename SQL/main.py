@@ -1,4 +1,5 @@
 import sqlite3
+import pandas as pd
 
 conn = sqlite3.connect('employee_db')
 c = conn.cursor()
