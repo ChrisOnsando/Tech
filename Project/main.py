@@ -36,3 +36,4 @@ if __name__ == "__main__":
     amount = int(input("Enter the Amount to Convert: "))
 
     c.convert(from_country, to_country, amount)
+
