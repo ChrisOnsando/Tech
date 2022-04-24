@@ -2,8 +2,8 @@
 from locale import currency
 import requests
 import fontstyle
-text = fontstyle.apply('CURRENCY CONVERTER-APP', 'bold/GREEN_BG')
-print(text)
+header = fontstyle.apply('CURRENCY CONVERTER-APP', 'bold/GREEN_BG')
+print(header)
 class Currency_convertor:
 # An empty dict to store the conversion rates.
     rates = {} 
