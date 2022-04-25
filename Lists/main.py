@@ -10,6 +10,9 @@ print(thisismylistofteams[0])
 print(thisismylistofteams[2:5])
 print(thisismylistofteams[:5])
 
+for x in thisismylistofteams:
+    print(x)
+
 if "Manchester City" in thisismylistofteams:
  print("Yes", "It is in my favourite teams list")
 else:
