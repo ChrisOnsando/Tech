@@ -7,8 +7,10 @@ print(type(thisismylistofteams))
 print(thisismylistofteams[2])
 print(thisismylistofteams[-1])
 print(thisismylistofteams[0])
+print(thisismylistofteams[2:5])
+print(thisismylistofteams[:5])
 
 if "Manchester City" in thisismylistofteams:
  print("Yes", "It is in my favourite teams list")
 else:
- print("Not in my favourite teams list", thisismylistofteams)
+     print("Not in my favourite teams list", thisismylistofteams)
