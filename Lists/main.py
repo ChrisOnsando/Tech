@@ -1,4 +1,4 @@
-thisismylistofteams = ["Manchester United" ,"Manchester City", "Bayern Munich", "PSG", "Liverpool" ,"Best teams to support", "In the Premier league" ]
+thisismylistofteams = ["Manchester United" ,"Manchester City", "Bayern Munich", "PSG", "Liverpool", "Real Madrid", "Athletico Madrid", "Juventus", "Inter Milan", "AC Milan", "Arsenal" ,"Best teams to support", "In the football leagues" ]
 print(thisismylistofteams)
 print(len(thisismylistofteams))
 print(type(thisismylistofteams))
