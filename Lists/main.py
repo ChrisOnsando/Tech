@@ -12,6 +12,8 @@ print(thisismylistofteams[:5])
 
 for x in thisismylistofteams:
     print(x)
+    
+[print(x) for x in thisismylistofteams]
 
 if "Manchester City" in thisismylistofteams:
  print("Yes", "It is in my favourite teams list")
