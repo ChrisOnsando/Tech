@@ -1,7 +1,6 @@
-# Calculating area of a rectangle
 from cmath import pi
 
-
+# Calculating area of a rectangle
 def area_rectangle(length: float, width: float) -> float:
 
     if length < 0 or width < 0:
@@ -11,7 +10,6 @@ def area_rectangle(length: float, width: float) -> float:
 print(f"Rectangle: {area_rectangle (10 ,20) = } cm squared")
 
 # Calculating area of rhombus
-
 def area_rhombus(diagonal_1: float, diagonal_2: float) -> float:
     
     if diagonal_1 < 0 or diagonal_2 < 0:
@@ -21,7 +19,6 @@ def area_rhombus(diagonal_1: float, diagonal_2: float) -> float:
 print(f"Rhombus: {area_rhombus (10, 20) = } cm squared")
 
 # Calculating area of circle
-
 def area_circle(radius: float) -> float:
    pi = 3.142
    if radius < 0:
@@ -37,4 +34,12 @@ def area_ellipse(radius_x: float, radius_y: float) -> float:
         raise ValueError("area_ellipse() only accepts non-negative values")
     return pi * radius_x * radius_y
 
-print(f"Ellipse: {area_ellipse(20,30) = }")    
+print(f"Ellipse: {area_ellipse(20,30) = } cm squared")    
+
+# Calculating area of trapezium
+def area_trapezium(base1: float, base2: float, height: float) -> float:
+    
+    if base1 < 0 or base2 < 0 or height < 0:
+        raise ValueError("area_trapezium() only accepts non-negative values")
+    return 1 / 2 * (base1 + base2) * height
+print(f"Trapezium: {area_trapezium(10, 20, 30) = } cm squared")
