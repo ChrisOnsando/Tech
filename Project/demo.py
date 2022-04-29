@@ -1,13 +1,12 @@
 from tkinter import *
 from tkinter import ttk
+import requests
 
-converter = Tk()
+convert = Tk()
 # Currency converter title
-converter.title("Currency Converter")
+convert.title("CURRENCY CONVERTER")
 # Currency converter dimensions height,width
-converter.geometry("600x400")
+convert.geometry("600x400")
 
 
-
-
-converter.mainloop()
+convert.mainloop()
