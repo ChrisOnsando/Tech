@@ -87,5 +87,5 @@ def area_of_square(side_length: float) -> float:
     if side_length < 0:
         raise ValueError("area_of_square() only accepts non-negative values")
     return side_length**2
-
+ 
 print(f"Square: {area_of_square(20) = } cm squared")
