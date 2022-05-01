@@ -35,7 +35,7 @@ def myClick():
 myButton = Button(root, text = "CONVERT", width=17, command=myClick)
 myButton.pack()
 
-button_quit = Button(root, text = "EXIT PROGRAM", width=17, command=root.quit)
-button_quit.pack()
+button_exit = Button(root, text = "EXIT PROGRAM", width=17, command=root.quit)
+button_exit.pack()
 
 root.mainloop()
