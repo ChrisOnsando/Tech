@@ -27,7 +27,7 @@ def area_of_circle(radius: float) -> float:
 
 print(f"Circle: {area_of_circle(20) = } cm squared")   
 
-# Calculating area of ellipse.
+# Calculating area of ellipse
 def area_of_ellipse(radius_x: float, radius_y: float) -> float:
 
     if radius_x < 0 or radius_y < 0:
