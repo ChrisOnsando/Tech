@@ -39,4 +39,8 @@ myButton.pack()
 button_exit = Button(root, text = "EXIT PROGRAM", width=17, command=root.quit)
 button_exit.pack()
 
+if __name__ == "__main__":
+  
+    url = str.__add__('http://data.fixer.io/api/latest?access_key=', "0cb31eb76a29258a165f5e10a7eb79dd")  
+    
 root.mainloop()
