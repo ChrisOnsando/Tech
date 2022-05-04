@@ -44,11 +44,19 @@ from_currency = Label(top,
 to_currency = Label(top,
 					text = "To Currency").place(x = 40,
 											y = 100)
+
+amount_converted = Label(top,
+					text = "Amount Converted").place(x = 40,
+											y = 150)
+	                                            
 	
 convert_button = Button(top,
 					text = "Convert").place(x = 40,
-											y = 130)
-	
+											y = 180)
+
+exit_button = Button(top, text = "EXIT PROGRAM", width=17, command=top.quit)
+exit_button.pack()
+		
 from_currency_input_area = Entry(top,
 							width = 20).place(x = 150,
 											y = 60)
@@ -56,21 +64,16 @@ from_currency_input_area = Entry(top,
 to_currency_entry_area = Entry(top,
 								width = 20).place(x = 150,
 												y = 100)
-	
-top.mainloop()
-
+amount_converted_entry_area = Entry(top,
+								width = 20).place(x = 173,
+												y = 150)
+		
 if __name__ == "__main__":
   
     url = str.__add__('http://data.fixer.io/api/latest?access_key=', "0cb31eb76a29258a165f5e10a7eb79dd")  
   
     c = Currency_convertor()
 
-           
-def myClick():
-    myclick =label(root)
-    myclick.pack()
 
 
-button_exit = Button(root, text = "EXIT PROGRAM", width=17, command=root.quit)
-button_exit.pack()
-
+top.mainloop()
