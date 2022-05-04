@@ -9,7 +9,7 @@ top = Tk()
 # Currency converter title
 top.title("CURRENCY CONVERTER")
 # Currency converter dimensions height,width
-top.geometry("450x300")
+top.geometry("500x300")
 class Currency_convertor:
 # An empty dict to store the conversion rates.
 
@@ -45,14 +45,17 @@ to_currency = Label(top,
 					text = "To Currency").place(x = 40,
 											y = 100)
 
+amount = Label(top,
+					text = "Amount").place(x = 40,
+											y = 150)
 amount_converted = Label(top,
 					text = "Amount Converted").place(x = 40,
-											y = 150)
+											y = 190)
 	                                            
 	
 convert_button = Button(top,
 					text = "Convert").place(x = 40,
-											y = 180)
+											y = 220)
 
 exit_button = Button(top, text = "EXIT PROGRAM", width=17, command=top.quit)
 exit_button.pack()
@@ -64,9 +67,12 @@ from_currency_input_area = Entry(top,
 to_currency_entry_area = Entry(top,
 								width = 20).place(x = 150,
 												y = 100)
+amount_entry_area = Entry(top,
+								width = 20).place(x = 150,
+												y = 150)                                                
 amount_converted_entry_area = Entry(top,
-								width = 20).place(x = 173,
-												y = 150)
+								width = 20).place(x = 190,
+												y = 190)
 		
 if __name__ == "__main__":
   
